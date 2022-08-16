@@ -1,0 +1,15 @@
+/* Criamos o nosso style com .module quando queremos atribuir esse CSS somente ao componente
+header, que de fato esta na mesma página. Para que não prejudique os outros componentes
+
+Isso serve para este CSS não atribuir classes a outros elementos. */
+
+.header{
+    background-color: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+}
+
+.header img{
+    height: 2rem;
+}
